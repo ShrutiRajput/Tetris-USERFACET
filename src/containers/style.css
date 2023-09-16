@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.scoreLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3367d6;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .scoreLine {
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+  .scoreLine {
+    height: 50px;
+  }
+}
+
+.gameContainer {
+  display: flex;
+  /* background-color: black; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+.score {
+  margin: 5px;
+  padding: 5px;
+}
+
+.controlContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.buttons {
+  background-color: rgb(214, 174, 181);
+  width: 85px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.destroyColor {
+  background-color: green;
+}

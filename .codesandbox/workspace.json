@@ -1,0 +1,12 @@
+{
+  "responsive-preview": {
+    "Tablet": [
+      1024,
+      765
+    ],
+    "Desktop": [
+      1400,
+      800
+    ]
+  }
+}
